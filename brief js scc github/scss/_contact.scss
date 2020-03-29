@@ -1,0 +1,49 @@
+.contact{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    background: blue;
+    .contact__info{
+        width: 30%;
+        text-align: center;
+        color: white;
+        margin: auto;
+        .contact__info--titel{
+            font-size: 12px;
+        }
+        .contact__info--para{
+            font-size: 30px;
+        }
+    }
+    .contact__email{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .contact__email i{
+        background: red;
+        width: 40px;
+        line-height: 40px;
+        color: white;
+        text-align: center;
+    }
+    .email, .submit{
+        border: none;
+        outline: none;
+    }
+    .email{
+        width: 0px;
+        transition: 0.6s;
+    }
+    .contact__email:hover > .email,.email:focus{
+        width: 260px;
+        padding: 0 10px;
+    }
+    .submit{
+        background: red;
+        color: white;
+        padding: 0 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
