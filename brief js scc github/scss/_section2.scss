@@ -6,3 +6,17 @@
         margin: auto;
     }
 }
+@media (max-width:1260px){
+    .section2{
+
+        .section__features{
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+@media (max-width:700px){
+    .section2{
+        margin-top: 100%;
+    }
+}
