@@ -1,0 +1,48 @@
+.section6{
+    width: 100;
+    padding: 30px 0;
+    .section6__info{
+        width: 35%;
+        margin: auto;
+        padding: 10px 0;
+        border-bottom: .6px solid rgba($color: #000000, $alpha: .5);
+        cursor: pointer;
+        color: black;
+        .section6__info--icon{
+            display: flex;
+            justify-content: space-between;
+        }
+        .section6__info--info{
+            display: none;
+        }
+        &:hover a{
+            color:red;
+        }
+        &:hover i{
+            color:black;
+        }
+        &:active > .section6__info--info{
+            color: red;
+            display: block;
+        }
+   }
+   .section6__button{
+       width: 6%;
+       text-align: center;
+       border-radius: 6px;
+       margin:  25px auto;
+       border: 1px solid blue;
+       background: blue;
+       padding: 7px 0;
+       &:hover{
+           background: none;
+       }
+        .section6__button--more{
+            color: white;
+            font-size: 12px;
+            &:hover{
+                color: blue;
+            }
+       }
+   }
+}
