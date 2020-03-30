@@ -36,3 +36,30 @@ footer{
         }
     }
 }
+@media (max-width:700px){
+    footer{
+        height: 100%;
+        .footer{
+            width: 20%;
+            font-size: 12px;
+            margin: auto;
+            flex-direction: column;
+            .footer__logo{
+                flex-direction: column;
+                line-height: 30px;
+            }
+            .footer__logo a{
+                padding: 0px 0;
+                margin-top: 10px;
+                margin-left: 30px;
+            }
+            .footer__icone{
+                justify-content: center;;
+                padding: 10px ;
+                margin: auto;
+
+            }
+        }
+    }
+    
+}

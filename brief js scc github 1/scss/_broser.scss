@@ -9,6 +9,9 @@
         box-shadow:2px 2px 2px #888888;
         text-align: center;
         padding: 30px 0px;
+        p{
+            color: $fontColor;
+        }
         .broser__chrom--bg{
             padding: 30px 0;
         }
@@ -18,13 +21,13 @@
             text-align: center;
             padding: 10px 15px;
             cursor: pointer;
-            border: 1px solid rgb(0, 110, 255);
+            border: 1px solid $addColor;
             border-radius: 5px;
             color: white;
-            background-color: rgb(0, 110, 255);
+            background-color: $addColor;
             &:hover {
-                border: 1px solid rgb(0, 110, 255);
-                color: rgb(0, 110, 255) ;
+                border: 1px solid $addColor;
+                color: $addColor ;
                 background-color: white;
             
             }
@@ -39,6 +42,9 @@
         box-shadow:2px 2px 2px #888888;
         text-align: center;
         padding: 30px 0px 20px 0;
+        p{
+            color: $fontColor;
+        }
         .broser__fire--bg{
             padding: 30px 0;
         }
@@ -48,13 +54,13 @@
             text-align: center;
             padding: 10px 15px;
             cursor: pointer;
-            border: 1px solid rgb(0, 110, 255);
+            border: 1px solid $addColor;
             border-radius: 5px;
             color: white;
-            background-color: rgb(0, 110, 255);
+            background-color: $addColor;
             &:hover {
-                border: 1px solid rgb(0, 110, 255);
-                color: rgb(0, 110, 255) ;
+                border: 1px solid $addColor;
+                color: $addColor ;
                 background-color: white;
             
             }
@@ -68,6 +74,9 @@
         box-shadow:2px 2px 2px #888888;
         text-align: center;
         padding: 30px 0px;
+        p{
+            color: $fontColor;
+        }
         .broser__opera--bg{
             padding: 30px 0;
         }
@@ -77,13 +86,13 @@
             text-align: center;
             padding: 10px 15px;
             cursor: pointer;
-            border: 1px solid rgb(0, 110, 255);
+            border: 1px solid $addColor;
             border-radius: 5px;
             color: white;
-            background-color: rgb(0, 110, 255);
+            background-color: $addColor;
             &:hover {
-                border: 1px solid rgb(0, 110, 255);
-                color: rgb(0, 110, 255) ;
+                border: 1px solid $addColor;
+                color: $addColor;
                 background-color: white;
             
             }
@@ -94,6 +103,42 @@
 }
 @media (max-width: 900px){
     .broser{
-        
-        width: 90%;}
+         width: 90%;
+    }
+}
+@media (max-width : 700px){
+    .broser{
+        height: 100%;
+        flex-direction: column; 
+        .broser__chrom{
+            margin: auto;
+            width: 70%;
+            height: 20%;
+            .broser__chrom--bg{
+                padding: 30px 0;
+                width: 100%;
+            }
+
+        }
+        .broser__fire{
+            margin: auto;
+            width: 70%;
+            height: 20%;
+            .broser__fire--bg{
+                padding: 30px 0;
+                width: 100%;
+            }
+
+        }
+        .broser__opera{
+            margin: auto;
+            width: 70%;
+            height: 20%;
+            .broser__opera--bg{
+                padding: 30px 0;
+                width: 100%;
+            }
+
+        }
+    }
 }
